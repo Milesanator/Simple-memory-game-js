@@ -1,0 +1,112 @@
+#cardContainer {
+	display: none;
+	margin: 10%;
+}
+
+#board {
+	background: url("Assets/bg.jpg") top left;
+	height: auto;
+	width: auto;
+	display: block;
+}
+
+#menuContainer {
+	display: block;
+	margin-top: 12.5%;
+	text-align: center;
+}
+
+#menuTitle {
+	margin-left: -8%;
+    position: fixed;
+    text-align: center;
+    top: 17%;
+}
+
+#menuContainer input {
+	height: 100px;
+	width: 200px;
+	background: url("Assets/button.jpg") top left;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	color: white;
+	margin-top:10%;
+}
+
+.card {
+	background-repeat: no-repeat;
+    float: left;
+	
+	background-size: contain;
+}
+
+#cardContainer .card {
+	height: 184px;
+    margin-bottom: 25px;
+    width: 12%;
+}
+
+#menu {
+    background: url("Assets/napkin.png") top left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: none;
+    height: 500px;
+    left: -21%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    position: fixed;
+    top: -160px;
+    width: 75%;
+    z-index: -1;
+}
+
+#logo {
+    background: url("Assets/psRotCoaster.png") top right;
+	background-repeat: no-repeat;
+	display:none;
+	background-size: contain;
+    top: -32px;
+    height: 287px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#currentScore {
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	height: 100px;
+    left: 150px;
+    position: fixed;
+    top: 86px;
+    width: 60px;
+}
+
+.ajax-field {
+	display: none;
+}
+
+.square {
+    border-radius: 5px;
+    height: 184px;
+    margin-left: 12%;
+    width: 75%;
+}
+
+#game-over {
+	display:none;
+	left: 46%;
+    position: fixed;
+    top: 45px;
+}
+
+.card.selected {
+    box-shadow: 0 0 0 12px white;
+}
+
+input.selected {
+    box-shadow: 0 0 0 12px white;
+}

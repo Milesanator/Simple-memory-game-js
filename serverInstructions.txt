@@ -1,0 +1,1 @@
+To install this application on a web server with Apache HTTP install simply put all the contents as is on your web server, index.html will load by default when a request is made to the math in which the application was placed.
